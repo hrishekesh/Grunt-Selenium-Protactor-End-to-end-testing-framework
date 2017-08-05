@@ -1,0 +1,131 @@
+[
+  {
+    "description": "  I want to view summary of all selfservice connections\n  So That I have a consolidated view to manage my connections better ",
+    "elements": [
+      {
+        "id": "account-summary;view-account-summary",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "View account summary",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Before ",
+            "result": {
+              "status": "passed",
+              "duration": 7553958
+            },
+            "hidden": true,
+            "match": {
+              "location": "D:\\selfservice\\e2e\\tests-e2e\\steps\\hooks\\MyselfserviceHooks.js:9"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I view account summary page",
+            "result": {
+              "status": "passed",
+              "duration": 300575
+            },
+            "line": 6,
+            "match": {
+              "location": "D:\\selfservice\\e2e\\tests-e2e\\steps\\accountsummary.steps.js:17"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I am able to see list of all my selfservice connections",
+            "result": {
+              "status": "passed",
+              "duration": 55846775719
+            },
+            "line": 7,
+            "match": {
+              "location": "D:\\selfservice\\e2e\\tests-e2e\\steps\\accountsummary.steps.js:21"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Login",
+            "line": 4
+          },
+          {
+            "name": "@Enterprise",
+            "line": 4
+          },
+          {
+            "name": "@CloseOverlay",
+            "line": 4
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "id": "account-summary;view-account-summary",
+        "keyword": "Scenario",
+        "line": 10,
+        "name": "View account summary",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Before ",
+            "result": {
+              "status": "passed",
+              "duration": 5031025
+            },
+            "hidden": true,
+            "match": {
+              "location": "D:\\selfservice\\e2e\\tests-e2e\\steps\\hooks\\MyselfserviceHooks.js:9"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I view account summary page",
+            "result": {
+              "status": "passed",
+              "duration": 93217
+            },
+            "line": 11,
+            "match": {
+              "location": "D:\\selfservice\\e2e\\tests-e2e\\steps\\accountsummary.steps.js:17"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I am able to see list of all my selfservice connections",
+            "result": {
+              "status": "passed",
+              "duration": 27750760856
+            },
+            "line": 12,
+            "match": {
+              "location": "D:\\selfservice\\e2e\\tests-e2e\\steps\\accountsummary.steps.js:21"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Login",
+            "line": 9
+          },
+          {
+            "name": "@Customer",
+            "line": 9
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "account-summary",
+    "keyword": "Feature",
+    "line": 1,
+    "name": "account-summary",
+    "tags": [],
+    "uri": "D:\\selfservice\\e2e\\tests-e2e\\feature\\accountsummary.feature"
+  }
+]]
